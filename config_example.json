@@ -1,0 +1,27 @@
+{
+  "name": "Saza-Bot",
+  "bot": "6281234567890",
+  "owner": "6289876543210",
+  "prefix": ".",
+  "status": "public",
+  "autoread": "enable",
+  "pairscode": "SAZA-SAZA",
+  "loginMethod": "qr",
+  "markdown": true,
+  "antispam": {
+    "enabled": true,
+    "windowMs": 30000,
+    "maxWarn": 4,
+    "maxBan": 5,
+    "banMs": 300000,
+    "exemptOwner": true,
+    "exemptPremium": false
+  },
+  "commandGate": {
+    "enabled": true,
+    "maxConcurrentFree": 1,
+    "freeMode": "queue",
+    "maxQueue": 3,
+    "queueTimeoutMs": 30000
+  }
+}
